@@ -1,18 +1,41 @@
-# 🏗️ A-Frame Designer AI  
+<!-- 🌿 SOCIAL PREVIEW BANNER -->
+<p align="center">
+  <img src="assets/banner.jpg" alt="A-Frame Designer AI banner" width="100%" />
+</p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
-![Build](https://img.shields.io/badge/build-stable-success)
-![Status](https://img.shields.io/badge/status-active-brightgreen)
-![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)
-![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue.svg)
-![AI Models](https://img.shields.io/badge/Models-SDXL%20%7C%20Mistral%20%7C%20ControlNet-orange)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0001--2952--7194-green?logo=orcid&logoColor=white)](https://orcid.org/0009-0001-2952-7194)
-![GitHub Repo stars](https://img.shields.io/github/stars/MaisonENA-Labs/AFrameDesignerAI?style=social)
-![GitHub forks](https://img.shields.io/github/forks/MaisonENA-Labs/AFrameDesignerAI?style=social)
+<!-- 🏗️ PROJECT TITLE -->
+<h1 align="center">🏗️ A-Frame Designer AI</h1>
+
+<p align="center">
+  <em>🌍 Open-source assistant for sustainable architecture and landscape design.<br>
+  🇫🇷 Assistant open-source de conception architecturale et paysagère durable.</em>
+</p>
+
+<!-- 🪴 BADGES -->
+<p align="center">
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT">
+  </a>
+  <img src="https://img.shields.io/badge/build-stable-success" alt="Build status">
+  <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Project status">
+  <img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103" alt="Open Source Love">
+  <img src="https://img.shields.io/badge/Made%20with-Python-blue.svg" alt="Python badge">
+  <img src="https://img.shields.io/badge/Models-SDXL%20%7C%20Mistral%20%7C%20ControlNet-orange" alt="AI Models">
+  <a href="https://orcid.org/0009-0001-2952-7194">
+    <img src="https://img.shields.io/badge/ORCID-0009--0001--2952--7194-green?logo=orcid&logoColor=white" alt="ORCID">
+  </a>
+  <img src="https://img.shields.io/badge/Made%20by-MaisonENA--Labs-darkgreen" alt="MaisonENA-Labs">
+</p>
+
+<!-- 🌟 SOCIAL STATS -->
+<p align="center">
+  <img src="https://img.shields.io/github/stars/MaisonENA-Labs/AFrameDesignerAI?style=social" alt="GitHub Stars">
+  <img src="https://img.shields.io/github/forks/MaisonENA-Labs/AFrameDesignerAI?style=social" alt="GitHub Forks">
+</p>
+
+---
 
 
-> 🌍 Open-source assistant for sustainable architecture and landscape design.  
-> 🇫🇷 Assistant open-source de conception architecturale et paysagère durable.
 
 ---
 
