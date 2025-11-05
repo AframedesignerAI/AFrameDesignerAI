@@ -1,6 +1,6 @@
 <!-- 🌿 SOCIAL PREVIEW BANNER -->
 <p align="center">
-  <img src="assets/banner.jpg" alt="A-Frame Designer AI banner" width="100%" />
+  <img src="/banner.jpg" alt="A-Frame Designer AI banner" width="100%" />
 </p>
 
 <!-- 🏗️ PROJECT TITLE -->
