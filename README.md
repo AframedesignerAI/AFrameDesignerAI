@@ -7,6 +7,8 @@
 ![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue.svg)
 ![AI Models](https://img.shields.io/badge/Models-SDXL%20%7C%20Mistral%20%7C%20ControlNet-orange)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--2952--7194-green?logo=orcid&logoColor=white)](https://orcid.org/0009-0001-2952-7194)
+![GitHub Repo stars](https://img.shields.io/github/stars/MaisonENA-Labs/AFrameDesignerAI?style=social)
+![GitHub forks](https://img.shields.io/github/forks/MaisonENA-Labs/AFrameDesignerAI?style=social)
 
 
 > 🌍 Open-source assistant for sustainable architecture and landscape design.  
