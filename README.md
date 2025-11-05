@@ -67,7 +67,19 @@
 - 🧩 **Models**: Stable Diffusion XL + ControlNet + Mistral 7B + Whisper  
 - 🌐 **Interface**: Python + Streamlit (or Gradio)  
 - ☁️ **Hosting**: Hugging Face Spaces / Vercel / RunPod  
-- 🔗 **Integrations (planned)**: SketchUp / Fusion 360 / Canva API  
+- 🔗 **Integrations (planned)**: SketchUp / Fusion 360 / Canva API
+
+- ---
+
+## 🧰 Installation
+
+You can run **A-Frame Designer AI** locally with Python 3.10 +.
+
+### 1️⃣ Clone this repository
+```bash
+git clone https://github.com/AframedesignerAI/AFrameDesignerAI.git
+cd AFrameDesignerAI
+
 
 ---
 
