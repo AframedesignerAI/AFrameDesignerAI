@@ -165,7 +165,5 @@ You are free to use, modify, and share this work with proper attribution.
 </p>
 
 
----
 
-> ✨ *“From idea to creation, guided by nature and code.”*
 
