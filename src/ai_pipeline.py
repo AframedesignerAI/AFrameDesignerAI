@@ -27,17 +27,29 @@ class AIDesigner:
         else:
             torch_dtype = getattr(torch, dtype)
 
-        # Load pipeline
+        # Load pipeline (sans safety_checker pour compatibilité)
         self.pipe = AutoPipelineForText2Image.from_pretrained(
             self.model_id,
             torch_dtype=torch_dtype,
-            safety_checker=None,  # démo simple; à remplacer si besoin d’un safety checker
         )
 
-        # Move to device
-        self.pipe = self.pipe.to(self.device)
+        # Optimisations mémoire
+        self.pipe.enable_attention_slicing()
+        if self.device == "cuda":
+            try:
+                self.pipe.enable_xformers_memory_efficient_attention()
+            except Exception:
+                pass
 
-        # SDXL-Turbo is optimized for very few steps; enable compile if available
+        # Move to device / offload
+        self.pipe = self.pipe.to(self.device)
+        if self.device != "cuda":
+            try:
+                self.pipe.enable_model_cpu_offload()
+            except Exception:
+                pass
+
+        # Optionnel: compile (CUDA seulement, PyTorch 2+)
         try:
             if hasattr(torch, "compile") and self.device == "cuda":
                 self.pipe = torch.compile(self.pipe)
@@ -58,9 +70,9 @@ class AIDesigner:
         if not prompt or not prompt.strip():
             prompt = "a cozy modern A-frame cabin in a lush garden, soft daylight, design magazine render, high detail"
 
-        generator = torch.Generator(device=self.device)
-        if seed is not None:
-            generator = generator.manual_seed(int(seed))
+        generator = None
+        if seed is not None and seed != 0:
+            generator = torch.Generator(device=self.device).manual_seed(int(seed))
 
         image = self.pipe(
             prompt=prompt,
