@@ -1,4 +1,13 @@
-# 🏗️ A-Frame Designer AI
+# 🏗️ A-Frame Designer AI  
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+![Build](https://img.shields.io/badge/build-stable-success)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)
+![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue.svg)
+![AI Models](https://img.shields.io/badge/Models-SDXL%20%7C%20Mistral%20%7C%20ControlNet-orange)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0001--2952--7194-green?logo=orcid&logoColor=white)](https://orcid.org/0009-0001-2952-7194)
+
 
 > 🌍 Open-source assistant for sustainable architecture and landscape design.  
 > 🇫🇷 Assistant open-source de conception architecturale et paysagère durable.
