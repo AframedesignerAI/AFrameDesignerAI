@@ -1,0 +1,9 @@
+torch
+transformers
+diffusers
+accelerate
+streamlit
+gradio
+pillow
+numpy
+safetensors
