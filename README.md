@@ -116,5 +116,56 @@ You are free to use, modify and distribute it with attribution.
 
 ---
 
+## 🤝 Contributing / Contribution
+
+Contributions, suggestions and collaborations are warmly welcome 🌿  
+If you’d like to improve A-Frame Designer AI — whether through code, design, testing or documentation — feel free to:
+
+1. **Fork** the repository  
+2. **Create a new branch** (`git checkout -b feature/YourFeature`)  
+3. **Commit your changes** (`git commit -m 'Add a feature'`)  
+4. **Push the branch** (`git push origin feature/YourFeature`)  
+5. **Open a Pull Request**
+
+> 💡 All contributions must align with the project’s open and ethical principles: sustainable design, transparency and creative collaboration.
+
+---
+
+## 🌱 Support & Contact
+
+📧 **Nathalie Lagreou-Othats**  
+Founder of [MaisonENA](https://lamaisonena.fr), [Studio A-Frame](https://lamaisonena.fr/studio) & [FormaCraft](https://formacraft.fr)  
+ORCID: [0009-0001-2952-7194](https://orcid.org/0009-0001-2952-7194)  
+GitHub: [@MaisonENA-Labs](https://github.com/MaisonENA-Labs)  
+
+If you enjoy this project, please ⭐ **star** the repository to show your support!  
+
+---
+
+## 💖 Acknowledgements / Remerciements
+
+This project is powered by open-source intelligence and creative minds around the world.  
+Special thanks to the communities supporting:  
+**Stable Diffusion**, **Mistral AI**, **ControlNet**, **Streamlit**, and **the open-source design movement**.  
+
+> 🇫🇷 *Merci à tous ceux qui croient qu’IA et nature peuvent cohabiter pour inspirer un design plus durable.* 🌿
+
+---
+
+## 📜 License
+
+This project is distributed under the **MIT License** — see [`LICENSE`](./LICENSE) for details.  
+You are free to use, modify, and share this work with proper attribution.
+
+---
+
+<p align="center">
+  <em>✨ From idea to creation, guided by nature and code ✨</em><br>
+  <img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103" alt="Open Source" height="30">
+</p>
+
+
+---
+
 > ✨ *“From idea to creation, guided by nature and code.”*
 
