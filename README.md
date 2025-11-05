@@ -80,6 +80,9 @@ You can run **A-Frame Designer AI** locally with Python 3.10 +.
 git clone https://github.com/AframedesignerAI/AFrameDesignerAI.git
 cd AFrameDesignerAI
 
+pip install -r requirements.txt
+
+streamlit run src/app.py
 
 ---
 
